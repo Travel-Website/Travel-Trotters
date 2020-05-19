@@ -57,4 +57,8 @@ function video3MouseHover(){
     });
 }
 
+function myFunction() {
+    alert("Thank you. We have received your form and we aim to respond back in 24 hours!");
+  }
+
 
