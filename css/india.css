@@ -1,0 +1,234 @@
+
+.content-container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  padding-top: 3%;
+}
+
+.column {
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 6em;
+  padding-bottom: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 6em;
+  padding-bottom: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 6em;
+  padding-bottom: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.overlay {
+  position: absolute; 
+  bottom: 10; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay1 {
+  position: absolute; 
+  bottom: 10; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.column1 {
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+}
+
+.column1:hover .overlay1 {
+  opacity: 1;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay2 {
+  position: absolute; 
+  bottom: 10; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.column2 {
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+}
+
+.column2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr{
+  width: 50%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.para {
+  font-family: 'Indie Flower', cursive;
+  width: 33.3%;
+  padding: 0.5em;
+  text-align: center;
+  background-color: white;
+  font-size: 26px;
+  /* margin: 1em; */
+}
+.menu-items:hover {
+  text-decoration-line: underline overline;
+  text-decoration-style: solid;
+  text-decoration-color: salmon;
+  text-decoration-thickness: 0.2em;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.bg-text {
+  color: rgb(65, 63, 63);
+  font-size: 17px;
+  position: fixed;
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  padding: 20px;
+  text-align: left;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: cursive;
+}
+
+body{
+  background-color: white;
+}
+
+h2{
+  text-align: center;
+}
+
+.home_footer {
+  position: absolute;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+ .social-media-list {
+  list-style: none;
+}
+.social-media-list li {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 180%;
+}
+.social-media-list li a {
+  color: #888;
+  transition: color 0.5s;
+}
+.logo-facebook:hover {
+  color: #3b5998
+}
+.logo-twitter:hover {
+  color: rgba(29,161,242,1.00)
+}
+.logo-linkedin:hover {
+  color: #3b5998
+}
+.logo-youtube:hover {
+  color: red
+}
+.logo-instagram:hover {
+  color: salmon
+}

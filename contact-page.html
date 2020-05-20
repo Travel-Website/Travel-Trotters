@@ -1,0 +1,82 @@
+<html>
+<header>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</header>
+<body>
+
+    <div style="text-align: center;">
+        <img src="./images/logo.png" width="500px"/>
+    </div>
+
+    <hr style="margin: 0 auto;">
+
+    <div class="container">
+        <div class="para">
+            <a class="menu-items" href="home.html">Home</a>
+        </div>
+        <div class="para">
+            <a class="menu-items" href="destinations.html">Destinations</a>
+        </div>
+        <div class="para">
+            <a class="menu-items" href="contact-page.html">Contact us</a>
+        </div> 
+    </div>
+    
+    <div class="contact_container">
+        <p>
+            WE LOVE THAT YOU WANT TO REACH OUT TO US!
+        </p>
+
+        <p>
+            If you need any help planning your trip, we have tons of information on the blog which should answer most of your questions.
+        </p>
+        <p>
+            Check out our <a href="#Destinations"><strong>Destinations</strong></a> page to get an overview of our experiences in each place.
+
+        </p>
+        <p>
+            We love interacting with our readers so please reach out to us on our social media and let's travel the world together.
+        </p>
+        <div class="contact_form_container">
+            <form onsubmit="myFunction()">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+            <label for="country">Your Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        
+            <label for="email add">E-mail address</label>
+            <input type="text" id="email-add" name="email" placeholder="123@gmail.com" required>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        
+            <input type="submit" value="Submit">
+        
+            </form>  
+        </div>
+    </div>  
+</body>
+
+<footer class="contact_footer">
+    <ul class="social-media-list">
+      <li><a href="https://www.facebook.com/" class="logo-facebook"><ion-icon name="logo-facebook"></ion-icon></a> </li>
+      <li><a href="https://twitter.com/login?lang=en-gb" class="logo-twitter"><ion-icon name="logo-twitter"></ion-icon></a> </li>
+      <li><a href="https://uk.linkedin.com/" class="logo-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li><a href="https://www.youtube.com/" class="logo-youtube"><ion-icon name="logo-youtube"></ion-icon></a></li>
+      <li><a href="https://www.instagram.com/" class="logo-instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+  </footer>
+</html>
